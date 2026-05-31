@@ -1,0 +1,36 @@
+artifact_path: model
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 4.0.0
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.10.12
+mlflow_version: 2.12.2
+model_size_bytes: 346826
+model_uuid: 458debff95c449d7b7d0d21a132731c8
+run_id: 239ae48b-7773-4244-a7e1-65750e268116
+signature:
+  inputs: '[{"type": "integer", "name": "CreditScore", "required": true}, {"type":
+    "boolean", "name": "Geography_France", "required": true}, {"type": "boolean",
+    "name": "Geography_Germany", "required": true}, {"type": "boolean", "name": "Geography_Spain",
+    "required": true}, {"type": "boolean", "name": "Gender_Female", "required": true},
+    {"type": "boolean", "name": "Gender_Male", "required": true}, {"type": "integer",
+    "name": "Age", "required": true}, {"type": "long", "name": "Tenure", "required":
+    true}, {"type": "double", "name": "Balance", "required": true}, {"type": "integer",
+    "name": "NumOfProducts", "required": true}, {"type": "integer", "name": "HasCrCard",
+    "required": true}, {"type": "integer", "name": "IsActiveMember", "required": true},
+    {"type": "double", "name": "EstimatedSalary", "required": true}, {"type": "double",
+    "name": "NewTenure", "required": true}, {"type": "long", "name": "NewCreditsScore",
+    "required": true}, {"type": "long", "name": "NewAgeScore", "required": true},
+    {"type": "long", "name": "NewBalanceScore", "required": true}, {"type": "long",
+    "name": "NewEstSalaryScore", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-05-31 15:19:39.352233'

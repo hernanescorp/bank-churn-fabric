@@ -1,0 +1,6 @@
+{
+  "python.analysis.stubPath": "c:\\Users\\heresc\\Desktop\\bank-churn-fabric\\.stubs\\pyspark34",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingModuleSource": "none"
+  }
+}
