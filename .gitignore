@@ -6,6 +6,12 @@ __pycache__/
 venv/
 env/
 
+.stubs/
+.vfscache/
+.vfsmeta/
+.vscode/
+.work-folder-info
+
 .DS_Store
 Thumbs.db
 
